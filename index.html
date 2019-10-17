@@ -1,0 +1,31 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/dbz.ico" rel="icon" type="image/x-icon" />
+		<title>DBZ JS Example</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="column">
+			<!-- Add the 'fly-forward' class to the image when the user clicks -->
+			<div class = "image kid">
+				<img src="images/gohan.gif" id="orange-kid"/>
+			</div>
+			<div id = "b1" class = "yellow button" onclick="moveGif()"></div>
+		</div>
+
+		<div class="column">
+			<!-- Change the image source when the user clicks -->
+			<div  class = "image man">
+				<img src="images/vegeta0.png" id="blue-man"/>
+			</div>
+			<div id = "b2" class = "blue button" onclick="changePicture()"></div>
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+	
+</html>
